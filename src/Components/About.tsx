@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function About() {
     return (
         <div>
@@ -11,7 +11,7 @@ function About() {
             <div className='flex justify-center p-5'>
                 <div>
 
-                    <img src="https://i.pinimg.com/736x/d4/2f/06/d42f061809b72db048e13fb6588b586b.jpg" className="w-full h-auto max-w-xl rounded-lg" alt="image description"/>
+                    <Image src="https://i.pinimg.com/736x/d4/2f/06/d42f061809b72db048e13fb6588b586b.jpg" className="w-full h-auto max-w-xl rounded-lg" alt="image description"/>
 
                 </div>
                 <div>

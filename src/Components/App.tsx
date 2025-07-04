@@ -2,7 +2,7 @@
 import React from 'react'
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 import { useState } from "react";
-
+import Image from 'next/image';
 const Qoutes = [
   { name: 'Sohaib', Qoute: 'Make a joke on yourself unless or until people will start judging you on that joke', bg_img: 'https://i.pinimg.com/736x/f3/2e/1d/f32e1d1153a41cf771f5dfc4fc4909fb.jpg' },
   { name: 'Dr. Seuss', Qoute: "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",bg_img:'https://i.pinimg.com/736x/53/81/f1/5381f13d9e9a66e0dcb6f579f3c28fc7.jpg' },
@@ -43,7 +43,7 @@ function App() {
                         </p>
                     </div>
 
-                    <img src={Qoutes[selected].bg_img} className="w-full h-auto max-w-xl rounded-lg" alt="image description" />
+                    <Image src={Qoutes[selected].bg_img} className="w-full h-auto max-w-xl rounded-lg" alt="image description" />
 
                 </div>
                 <div className='flex items-center justify-center'>
