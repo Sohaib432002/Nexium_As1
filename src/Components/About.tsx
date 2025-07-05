@@ -21,7 +21,6 @@ const OnePage = () => {
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100">
 
 
-            {/* About Section */}
             <section id="about" className="py-20 px-4">
                 <div className="max-w-6xl mx-auto">
                     {/* Section Header */}
@@ -33,9 +32,7 @@ const OnePage = () => {
                         </p>
                     </div>
 
-                    {/* Main About Content */}
                     <div className="grid lg:grid-cols-2 gap-12 mb-16">
-                        {/* Personal Story */}
                         <div className="bg-white rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300">
                             <div className="flex items-center mb-6">
                                 <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-4">
@@ -58,7 +55,6 @@ const OnePage = () => {
                             </p>
                         </div>
 
-                        {/* Stats & Achievements */}
                         <div className="space-y-6">
                             <div className="bg-white rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300">
                                 <div className="flex items-center mb-6">
@@ -116,7 +112,6 @@ const OnePage = () => {
                         </div>
                     </div>
 
-                    {/* Skills Section */}
                     <div className="bg-white rounded-2xl shadow-xl p-8 mb-16">
                         <h3 className="text-2xl font-semibold text-blue-900 mb-6 text-center">Technical Skills</h3>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -146,7 +141,6 @@ const OnePage = () => {
                 </div>
             </section>
 
-            {/* Contact Section */}
             <section id="contact" className="py-20 px-4 bg-white">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-4xl font-bold text-blue-900 mb-4">Get In Touch</h2>
@@ -196,7 +190,6 @@ const OnePage = () => {
                 </div>
             </section>
 
-            {/* Footer */}
             <footer className="bg-blue-900 text-white py-8 px-4">
                 <div className="max-w-6xl mx-auto text-center">
                     <p className="text-blue-200">

@@ -130,7 +130,6 @@ const App = () => {
     return (
         <section id="quotes" className="py-20 px-4">
             <div className="max-w-6xl mx-auto">
-                {/* Section Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Quote Generator</h2>
                     <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
@@ -139,7 +138,6 @@ const App = () => {
                     </p>
                 </div>
 
-                {/* Category Filter */}
                 <div className="flex flex-wrap justify-center gap-3 mb-12">
                     {categories.map((category) => {
                         const IconComponent = category.icon;
@@ -159,7 +157,6 @@ const App = () => {
                     })}
                 </div>
 
-                {/* Main Quote Display */}
                 <div className="max-w-4xl mx-auto mb-12">
                     <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 text-center transform hover:scale-105 transition-all duration-300">
                         {isLoading ? (
@@ -215,7 +212,6 @@ const App = () => {
                     </div>
                 </div>
 
-                {/* Generate Button */}
                 <div className="text-center">
                     <button
                         onClick={generateRandomQuote}
@@ -244,7 +240,6 @@ const App = () => {
                 </div>
             </div>
 
-            {/* Favorites Section */}
             <section id="favorites" className="py-20 px-4 bg-white mt-20">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">

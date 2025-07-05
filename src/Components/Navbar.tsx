@@ -27,7 +27,6 @@ const  Navbar=()=> {
               <span className="text-2xl font-bold text-blue-900">QuoteApp</span>
             </div>
             
-            {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8">
               <button 
                 onClick={() => scrollToSection('hero')}
@@ -49,7 +48,6 @@ const  Navbar=()=> {
               </button>
             </div>
 
-            {/* Mobile Menu Button */}
             <div className="md:hidden">
               <button onClick={toggleMenu} className="text-blue-700">
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -57,7 +55,6 @@ const  Navbar=()=> {
             </div>
           </div>
 
-          {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="md:hidden bg-white border-t">
               <div className="px-2 pt-2 pb-3 space-y-1">
