@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import 'flowbite'; 
 
 html,body{
   transition: all 0.5s ease-in-out;
